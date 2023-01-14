@@ -29,6 +29,7 @@
           <p v-if="item.type === 'DRAFT'">
             Description: {{ item.description }}
           </p>
+          <p v-if="item.type === 'DEPOSIT'"></p>
           <p>
             Status: {{ item.status }}
             <a-icon
