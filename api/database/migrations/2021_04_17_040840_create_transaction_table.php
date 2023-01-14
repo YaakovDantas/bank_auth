@@ -20,7 +20,7 @@ class CreateTransactionTable extends Migration
             $table->string('status')->default('PENDING');
             $table->string('check_path')->nullable();
             $table->text('description')->nullable();
-            $table->bigInteger('account_id');
+            $table->unsignedBigInteger('account_id');
             $table->foreign('account_id')->references('id')->on('accounts')->onDelete('cascade');
             $table->timestamps();
         });
