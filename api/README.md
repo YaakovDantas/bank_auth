@@ -31,19 +31,12 @@ php artisan key:generate
 Configure bank access credentials
 
 ```
-DB_CONNECTION=sqlite
-DB_FOREIGN_KEYS=true
-```
-
-Create a `database.sqlite` file in the root of the database folder
-
-If you don't have php-sqlite enabled, install in your php.ini
-
-```
-extension_dir = "<php installation directory>/php-7.4.3/ext"
-extension=php_pdo_sqlite.dll
-extension=php_sqlite3.dll
-sqlite3.extension_dir = "<php installation directory>/php-7.4.3/ext"
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=root
+DB_PASSWORD=
 ```
 
 Generate database
