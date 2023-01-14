@@ -1,7 +1,6 @@
-# bank yaakov
-Banco Yaakov, praticando com Laravel e Vue
+# Yaakov Bank
 
-Para configuração e execução do Front-end e Back-end, ler os readme das pastas:
+For configuration and execution of the Front-end and Back-end, read the readme of the folders:
 
-- [front](https://github.com/YaakovDantas/bank/tree/main/front) 
-- [api](https://github.com/YaakovDantas/bank/tree/main/api)
+- [client](https://github.com/YaakovDantas/bank_auth/tree/main/front)
+- [api](https://github.com/YaakovDantas/bank_auth/tree/main/api) 
