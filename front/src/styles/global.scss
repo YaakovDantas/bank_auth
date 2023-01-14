@@ -1,0 +1,50 @@
+@import "variables.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+html,body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato' sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, p, article, input, textarea {
+  color: $black-light;
+}
+
+.font-white {
+  color: $white-light;
+}
+
+.font-black {
+  color: $black-light;
+}
+
+.font-blue {
+  color: $blue-light;
+}
+
+.card-content {
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px 20px;
+  box-shadow: 0px 4px 15px #e4e0e0;
+}
+
+.btn-enter {
+  &.ant-btn {
+    background: $bg-blue-dark;
+    color: #fff;
+  }
+}
+
+.btn-cancel {
+  &.ant-btn {
+    background: $black-light;
+    color: #fff;
+  }
+}
