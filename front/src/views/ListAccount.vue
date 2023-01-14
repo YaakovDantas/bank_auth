@@ -26,10 +26,7 @@
             <strong>{{ item.date_time }}</strong>
           </p>
           <p><strong>$ </strong> {{ item.amount }}</p>
-          <p v-if="item.type === 'DRAFT'">
-            Description: {{ item.description }}
-          </p>
-          <p v-if="item.type === 'DEPOSIT'"></p>
+          {{ " " }}
           <p>
             Status: {{ item.status }}
             <a-icon
@@ -43,6 +40,10 @@
               v-if="item.status === 'DECLINED'"
             />
           </p>
+          <p v-if="item.type === 'DRAFT'">
+            Description: {{ item.description }}
+          </p>
+          <p v-if="item.type === 'DEPOSIT'">{{ " " }}</p>
           <p v-if="item.type === 'DEPOSIT'"></p>
           <p
             :style="{
