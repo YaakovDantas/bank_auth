@@ -10,15 +10,15 @@
       <a-form-model-item ref="name" prop="name">
         <p>Username</p>
         <a-input
-          class="input-box underline"
+          class="input-box"
           :style="{ minWidth: '100%' }"
           v-model="form.name"
         />
       </a-form-model-item>
 
       <a-form-model-item ref="password" prop="password">
-        <p class="title-section">Password</p>
-        <a-input-password
+        <p>Password</p>
+        <a-input
           class="input-box"
           v-model.trim="form.password"
           type="password"
